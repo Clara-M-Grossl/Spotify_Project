@@ -1,0 +1,21 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back_end && npm install --prefix front_end && npm run build --prefix front_end",
+    "start": "npm run start --prefix back_end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clara-M-Grossl/deploy_projeto_spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clara-M-Grossl/deploy_projeto_spotify/issues"
+  },
+  "homepage": "https://github.com/Clara-M-Grossl/deploy_projeto_spotify#readme",
+  "description": ""
+}
