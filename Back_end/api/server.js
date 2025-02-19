@@ -6,7 +6,7 @@ import path from "path";
 const __dirname = path.resolve();
 
 const app = express();
-const PORT = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(cors());
 
@@ -27,6 +27,6 @@ app.use(express.static(path.join(__dirname, "../Front_end/dist")));
 app.get("*", async (request, response) => {
   response.sendFile(path.join(__dirname, "../Front_end/dist/index.html"));
 });
-app.listen(PORT, () => {
-  console.log(`Escutando na porta: ${PORT}`);
+app.listen(port, () => {
+  console.log(`Escutando na porta: ${port}`);
 });
