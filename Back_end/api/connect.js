@@ -1,12 +1,8 @@
 import { MongoClient } from "mongodb";
+import 'dotenv/config';
 
-const URI =
-  "mongodb+srv://clara:A22z47_867@cluster0.8xodo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const URI = process.env.MONGO_URI;
 
 const client = new MongoClient(URI);
 
 export const db = client.db("Projeto_Spotify");
-
-// const songCollection = await db.collection("songs").find({}).toArray();
-
-// console.log(songCollection);
