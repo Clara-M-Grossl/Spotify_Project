@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 
 const URI =
-  "mongodb://clara:A22z47_867@cluster0.8xodo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://clara:clara@cluster0.8xodo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const client = new MongoClient(URI);
 
