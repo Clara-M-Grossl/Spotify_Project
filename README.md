@@ -14,10 +14,10 @@
  - Backend: com Node.js
  - API: Consumo de dados dos artistas e músicas populares
 
-**Como acessar:** 
+[comment]: < **Como acessar:** >
 
-Você pode acessar a versão publicada aqui:
-      https://deploy-projeto-spotify-cqiu.onrender.com/
+[comment]: < Você pode acessar a versão publicada aqui: >
+[comment]: < https://deploy-projeto-spotify-cqiu.onrender.com/ >
 
 **Como rodar o projeto localmente:** 
 
@@ -56,10 +56,10 @@ This is a website inspired by Spotify, designed to simulate the main page of Spo
 - Backend: Node.js
 - API: Consumes data of popular artists and songs
 
-**How to access:**  
+[comment]: < **How to access:**  >
 
-You can access the live version here:  
-[https://deploy-projeto-spotify-cqiu.onrender.com/](https://deploy-projeto-spotify-cqiu.onrender.com/)
+[comment]: < You can access the live version here:  >
+[comment]: < [https://deploy-projeto-spotify-cqiu.onrender.com/](https://deploy-projeto-spotify-cqiu.onrender.com/)>
 
 **How to run the project locally:**  
 
